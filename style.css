@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    text-align: center;
+    background-color: #F3ECB0;
+    line-height: 1.5;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('https://static.pexels.com/photos/248515/pexels-photo-248515.png');
+}
+
+.sec1 > p{
+    width: 40%;
+}
+
+.btnSec1{
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 3%;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.btnSec1:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.sec2{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background-color: #ADE792;
+    
+}
+.textSec2{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.sec3{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3-content{
+    width: 70%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.box-text{
+    width: 100%;
+    background-color: #e77272;
+}
+.box pcontent {
+    padding: 5%;
+}
+.imgbox{
+    width: 100%;
+}
+
+.sec4{
+    background-color: white;
+    padding: 4%;
+
+}
+
+.sec4 p {
+
+}
+
+.sec5{
+    display: flex;
+}
+.contact{
+    background-color: blueviolet;
+    width: 50%;
+    padding: 5%;
+
+}
+.about{
+    width: 50%;
+    background-color: #e7d31f;
+    padding: 5%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3{
+    margin-top: 0;
+}
+
+.icons{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.icon{
+     width: 7%;
+
+}
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+    .box-text{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        background-color: #e77272;
+
+    }
+    .imgbox{
+        width: 50%;
+        height: 100px;
+
+    }
+    .sec-3-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        gap: 10px;
+    }
+    
+}
